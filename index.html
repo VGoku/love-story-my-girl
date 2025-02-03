@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Story</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="book">
+        <div class="page" id="page1">
+            <p>Once upon a time, in a land far away...</p>
+            <button onclick="goToPage('page2')">Next</button>
+        </div>
+        <div class="page" id="page2" style="display:none;">
+            <p>You met a wonderful girl...</p>
+            <button onclick="goToPage('page3')">Next</button>
+        </div>
+        <div class="page" id="page3" style="display:none;">
+            <p>And you fell in love with her...</p>
+            <button onclick="goToPage('page4')">Next</button>
+        </div>
+        <div class="page" id="page4" style="display:none;">
+            <p>Do you love me?</p>
+            <button onclick="goToPage('page5')">Yes</button>
+            <button onclick="goToPage('page6')">No</button>
+        </div>
+        <div class="page" id="page5" style="display:none;">
+            <p>I love you too!</p>
+            <button onclick="goToPage('page7')">Next</button>
+        </div>
+        <div class="page" id="page6" style="display:none;">
+            <p>Oh no! But I still love you!</p>
+            <button onclick="goToPage('page7')">Next</button>
+        </div>
+        <div class="page" id="page7" style="display:none;">
+            <p>We went on many adventures together...</p>
+            <button onclick="goToPage('page8')">Next</button>
+        </div>
+        <div class="page" id="page8" style="display:none;">
+            <p>We shared countless memories...</p>
+            <button onclick="goToPage('page9')">Next</button>
+        </div>
+        <div class="page" id="page9" style="display:none;">
+            <p>And our love grew stronger each day...</p>
+            <button onclick="goToPage('page10')">Next</button>
+        </div>
+        <div class="page" id="page10" style="display:none;">
+            <p>We laughed and cried together...</p>
+            <button onclick="goToPage('page11')">Next</button>
+        </div>
+        <div class="page" id="page11" style="display:none;">
+            <p>We supported each other through thick and thin...</p>
+            <button onclick="goToPage('page12')">Next</button>
+        </div>
+        <div class="page" id="page12" style="display:none;">
+            <p>We built a life full of joy and happiness...</p>
+            <button onclick="goToPage('page13')">Next</button>
+        </div>
+        <div class="page" id="page13" style="display:none;">
+            <p>And our love story continues to grow...</p>
+            <button onclick="goToPage('page14')">Next</button>
+        </div>
+        <div class="page" id="page14" style="display:none;">
+            <p>Forever and always, I love you!</p>
+            <button onclick="goToPage('page15')">The End</button>
+        </div>
+        <div class="page" id="page15" style="display:none;">
+            <p>Thank you for being my everything!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

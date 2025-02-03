@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffcccb 25%, #ffe4e1 75%);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+    transition: background-color 0.5s;
+}
+
+#book {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border: 2px solid #ff69b4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+#book:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.page {
+    display: none;
+}
+
+.page p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.page button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff69b4;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.page button:hover {
+    background-color: #ff1493;
+    transform: scale(1.1);
+}
